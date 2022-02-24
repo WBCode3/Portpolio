@@ -1,6 +1,10 @@
 # Portpolio
 
 Main color 
-#023373
-#444655
-#A8AABC
+#081826
+#344353
+#D7F3FF
+#E19E20
+
+Slogan  
+program programming programmer
