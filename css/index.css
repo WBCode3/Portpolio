@@ -96,12 +96,6 @@ html, body {
     transform: translateX(-6vw);
   }
   
-  .menu__bar__frame__mini:hover{
-    transform: translateX(-6vw);
-  }
-
-  /* 미니프레임 호버 했을때 메뉴바 색상 변경 */
-
   .menu__bar__frame, .menu__bar__frame__mini{
     position: absolute;
     height: 100%;
@@ -116,17 +110,25 @@ html, body {
     text-align: center;
     /* background-image: linear-gradient(to right top, #344353, #596b7b, #8096a5, #aac4d1, #d7f3ff); */
   }
-
+  
   .menu__bar__frame{
     width: 30vw;
     right: -30vw;
   }
-
+  
   .menu__bar__frame__mini{
     width: 6vw;
     right: -6vw;
   }
+  
+  .menu__bar__frame__mini:hover{
+    transform: translateX(-6vw);
+  }
 
+  .menu__bar__frame__mini:hover+.menu__bar > div{
+    background-color: 081826;
+  }
+  
   .main__title {
     display: flex;
     justify-content: space-around;
