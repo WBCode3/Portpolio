@@ -7,45 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .d1,
-    .d2 {
+    .d1{
       width: 100px;
-      height: 200px;
-    }
-
-    .d1 {
-      background-color: blue;
-    }
-
-    .d1:hover {
-      /* background-color: beige; */
-    }
-
-    .d1:hover+.d2 div{
-      background-color: bisque;
-    }
-
-    .d2 {
-      /* background-color: brown; */
-    }
-
-    .d2 div{
-      width: 100%;
-      height: 50px;
-      margin-bottom: 10px;
-      background-color: blueviolet;
+      height: 100px;
+      box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
     }
   </style>
 </head>
 
 <body>
-
   <div class="d1"></div>
-  <div class="d2" id="d3">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
 </body>
 
 </html>

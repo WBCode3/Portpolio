@@ -38,7 +38,9 @@ html, body {
       position: relative;
       top: 0;
       height: 7px;
-      background-color: #fff;
+      /* 임시방편 */
+      /* background-color: #fff; */
+      background-color: #E19E20;
       margin-bottom: 7px;
       transition: transform 0.4s,background-color 0.5s;
       border-radius: 2px;
@@ -99,7 +101,9 @@ html, body {
   .menu__bar__frame, .menu__bar__frame__mini{
     position: absolute;
     height: 100%;
+    /* background-color: #344353; */
     background-color: #D7F3FF;
+
     transition: transform 0.3s ease-in-out;
     z-index: 9998;
     border-top-left-radius: 3%;

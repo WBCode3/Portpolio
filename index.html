@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
@@ -22,12 +23,36 @@
 
   <style>
     .menu__bar__frame__list {
-      
+      width: 80%;
     }
 
     .menu__bar__frame__list li {
       font-family: 'Noto Sans KR', sans-serif;
-      font-size: 30px;
+      font-size: 35px;
+      font-family: 'Fredoka One', cursive;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      width: 70%;
+      margin: 75px auto 75px auto;
+      letter-spacing: 5px;
+      box-shadow: 3px 4px 5px rgba(08, 18, 26, 0.4), -2px -2px 10px rgba(08, 18, 26, 0.1);
+      transition: background-color 0.2s ease-in;
+      
+      /* 백그라운드 컬러 및 텍스트 컬러 어떤걸 쓸지 고민 */
+      background-color: white;
+      border-radius: 20px;
+      color: white;
+      color: #081826;
+    }
+
+    .menu__bar__frame__list li:hover{
+      color: #D7F3FF;
+      background-color: #081826;
+    }
+
+    .menu__bar__frame__list li:active{
+      color: #E19E20;
+      /* transform: translateY(5px); */
     }
 
     #blind {
@@ -81,7 +106,7 @@
     </div>
 
     <div class="menu__bar__frame">
-      <img src="img/logo3.png" alt="로고" style="width: 80px; position: absolute; top: 15px; left: 15px;">
+      <img src="img/logo3.png" alt="로고" style="width: 80px; position: absolute; bottom: 15px; left: 15px;">
       <div class="menu__bar__frame__list">
         <ul>
           <li>HOME</li>

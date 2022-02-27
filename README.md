@@ -18,14 +18,21 @@ slogan, name 옆쪽이랑 가장자리는 60~정도 나와야 적당함
 *순위 main__title 애들 비율 안맞음
 *화면 보호기 fadeout도 적용하고 싶음
 *menu__bar__frame__mini hover는 되는데 다른곳 style이 안먹힘
+*메뉴바 이펙트 맘에 안듬
+*menu__bar list 디자인 맘에 안듬
+*hedaer를 width를 100%으로 줌으로써 그 뒤에 오는 애들이 선택이 안됨 아주 큰 문제
 
 -당장 할일-
-메뉴 프레임, 미니 프레임 top bottom 균등 배치
-font size color backcolor font-wight
+메뉴 프레임, 미니 메뉴 프레임 꾸미기
+링크 맥이기
+블라인드 클릭시 메뉴바 접히게
 
 -할일-
-메뉴 프레임, 미니 프레임 꾸미기
-
-사이드바 만들기
 
 -내일 할일-
+사이드바 만들기
+profile
+
+-기타-
+menu__bar__frame__mini
+background-color 밝은 색으로 할지 어두운 색으로 할지 선택
