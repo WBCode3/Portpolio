@@ -1,5 +1,130 @@
-body {
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
     background-color: #081826;
+  }
+
+  header{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  #menu_bar {
+      display: none;
+  }
+
+  label {
+      position: fixed;
+      top: 4%;
+      right: 2%;
+      display: block;
+      width: 40px;
+      height: 30px;
+      cursor: pointer;
+      z-index: 9999;
+  }
+
+  label:before {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+  label div {
+      position: relative;
+      top: 0;
+      height: 7px;
+      background-color: #fff;
+      margin-bottom: 7px;
+      transition: transform 0.4s,background-color 0.5s;
+      border-radius: 2px;
+  }
+
+  label div:first-child {
+      transform-origin: 0;
+  }
+
+  label div:last-child {
+      margin-bottom: 0;
+      transform-origin: 40px;
+  }
+
+  label div:nth-child(2) {
+      right: 0;
+      width: 40px;
+  }
+  
+  #menu_bar:checked+label div:first-child {
+    top: -6px;
+    transform: rotateZ(45deg);
+  }
+  
+  #menu_bar:checked+label div:last-child {
+    top: 6px;
+    transform: rotateZ(45deg);
+  }
+  
+  #menu_bar:checked+label div:nth-child(2) {
+    width: 58px;
+    top: 0;
+    right: 9px;
+    transform: rotateZ(-45deg);
+  }
+
+  #menu_bar:checked+label div{
+    background-color: #081826;
+  }
+
+  #menu_bar:hover+label div{
+    background-color: #081826;
+  }
+  
+  #menu_bar:checked~#blind{
+    display: inline-block;
+    animation-name: fadein;
+  }
+
+  #menu_bar:checked~.menu__bar__frame{
+    transform: translateX(-30vw);
+  }
+
+  #menu_bar:hover~.menu__bar__frame__mini{
+    transform: translateX(-6vw);
+  }
+  
+  .menu__bar__frame__mini:hover{
+    transform: translateX(-6vw);
+  }
+
+  /* 미니프레임 호버 했을때 메뉴바 색상 변경 */
+
+  .menu__bar__frame, .menu__bar__frame__mini{
+    position: absolute;
+    height: 100%;
+    background-color: #D7F3FF;
+    transition: transform 0.3s ease-in-out;
+    z-index: 9998;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: linear-gradient(to right top, #344353, #596b7b, #8096a5, #aac4d1, #d7f3ff); */
+  }
+
+  .menu__bar__frame{
+    width: 30vw;
+    right: -30vw;
+  }
+
+  .menu__bar__frame__mini{
+    width: 6vw;
+    right: -6vw;
   }
 
   .main__title {
@@ -21,8 +146,8 @@ body {
     font-weight: 800;
     text-shadow: 5px 5px 0px #E19E20;
 
-    background-color: brown;
-    border: 3px solid green;
+    /* background-color: brown;
+    border: 3px solid green; */
   }
 
   .main__title__Slogan {

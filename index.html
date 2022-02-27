@@ -14,33 +14,106 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
 
-  <!-- #081826
+  <!-- 
+#081826
 #344353
 #D7F3FF
 #E19E20 -->
 
   <style>
+    .menu__bar__frame__list{
+      /* margin: auto; */
+      /* margin-top: 100px; */
+    }
+
+    .menu__bar__frame__list li{
+      margin-bottom: 100px; 
+      background-color: bisque;
+    }
+
+    #blind{
+      position: fixed;
+      z-index: 5555;
+      cursor: default;
+      display: none;
+      /* display: inline-block; */
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0;
+      animation-duration: 0.5s;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode:forwards;
+    }
+
+    @keyframes fadein{
+      from{
+        opacity: 0;
+      }
+      to{
+        opacity: 0.4;
+      }
+    }
+
+    @keyframes fadeout{
+      from{
+        opacity: 0.5;
+      }
+      to{
+        opacity: 0;
+      }
+    }
 
   </style>
 </head>
 
 <body>
+  <header>
+    <input type="checkbox" id="menu_bar">
+    <label class="menu__bar" for="menu_bar">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
 
-  <div class="main__title">
-    <div class="main__title__Slogan">
-      <!-- pre 스페이스바 길이 조정 조심 -->
-      <pre>
-    Program
-    Programming
-    Programmer</pre>
+    <div class="menu__bar__frame__mini">
+
     </div>
-    <div class="main__title__logo">
-      <img src="img/logo3.png" alt="로고">
+
+    <div class="menu__bar__frame">
+      <div class="menu__bar__frame__list">
+        <ul>
+          <li>테스트1</li>
+          <li>테스트2</li>
+          <li>테스트3</li>
+          <li>테스트4</li>
+          <li>테스트5</li>
+        </ul>
+      </div>
     </div>
-    <div class="main__title__name">
-      PORTPOLIO
+
+    <a id="blind" href="#"></a>
+  </header>
+
+  <main>
+    <div class="main__title">
+      <div class="main__title__Slogan">
+        <!-- pre 스페이스바 길이 조정 조심 -->
+        <pre>
+   Program
+   Programming
+   Programmer</pre>
+      </div>
+      <div class="main__title__logo">
+        <img src="img/logo3.png" alt="로고">
+      </div>
+      <div class="main__title__name">
+        PORTPOLIO
+      </div>
     </div>
-  </div>
+  </main>
+
 </body>
 
 </html>
