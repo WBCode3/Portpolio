@@ -17,13 +17,14 @@ slogan, name 옆쪽이랑 가장자리는 60~정도 나와야 적당함
 *반응형으로 만들기
 *순위 main__title 애들 비율 안맞음
 *화면 보호기 fadeout도 적용하고 싶음
+*블라인드 클릭하면 자연스럽게 fadeout 그리고 메뉴바 프레임도 자연스럽게 퇴장
 *menu__bar__frame__mini hover는 되는데 다른곳 style이 안먹힘
 *메뉴바 이펙트 맘에 안듬
 *menu__bar list 디자인 맘에 안듬
-*hedaer를 width를 100%으로 줌으로써 그 뒤에 오는 애들이 선택이 안됨 아주 큰 문제
+*menu__bar__frame display도 mini flex 처럼 바꾼다
+
 
 -당장 할일-
-메뉴 프레임, 미니 메뉴 프레임 꾸미기
 링크 맥이기
 블라인드 클릭시 메뉴바 접히게
 
