@@ -77,12 +77,17 @@
     }
 
     .main__profile__name, .main__profile__comment{
-        background-color: #1c40a0;
-        color: #ffffff;
+        background-color: #D7F3FF;
+        color: #081826;
         font-size: 30px;
         font-weight: 500;
         padding: 15px;
         overflow: hidden;
         border-radius: 100px;
         margin-top: 30px;
+        text-align: center;
+        letter-spacing: 5px;
+        width: 40%;
+
+        box-shadow: -2px -2px 2px #344353;
     }
