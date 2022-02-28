@@ -22,18 +22,21 @@ slogan, name 옆쪽이랑 가장자리는 60~정도 나와야 적당함
 *메뉴바 이펙트 맘에 안듬
 *menu__bar list 디자인 맘에 안듬
 *menu__bar__frame display도 mini flex 처럼 바꾼다
-
+*블라인드 클릭시 블라인드 페이드 아웃, 메뉴바 자연스럽게 사라지기
+*스크롤 디자인
 
 -당장 할일-
-링크 맥이기
-블라인드 클릭시 메뉴바 접히게
+디자인 이쁘게
+main__profile__side 배치 예쁘게
+main__profile__name, .main__profile__comment 디자인 예쁘게
 
 -할일-
+profile
+사이드바 만들기
 
 -내일 할일-
-사이드바 만들기
-profile
 
 -기타-
 menu__bar__frame__mini
 background-color 밝은 색으로 할지 어두운 색으로 할지 선택
+a로 이동하면 부드럽게 이동
