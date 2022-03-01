@@ -45,8 +45,9 @@
     .main__profile{
         width: 100%;
         height: 100vh;
-        /* background-color: brown; */
-        overflow: hidden;
+        background-color: brown;
+        /* overflow: hidden; */
+        /* display: inline-block; */
     }
 
     .main__profile__title{
@@ -55,7 +56,7 @@
         font-weight: 500;
         letter-spacing: 20px;
         position: relative;
-
+        /* left: 100px; */
         /* 가라마진 */
         margin-bottom: 50px;
     }
@@ -63,10 +64,10 @@
     .main__profile__side{
         width: 30vw;
         height: 80vh;
-        /* background-color: #E19E20; */
+        background-color: #E19E20;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -77,17 +78,32 @@
     }
 
     .main__profile__name, .main__profile__comment{
-        background-color: #D7F3FF;
+        background-color: #ffffff;
         color: #081826;
-        font-size: 30px;
-        font-weight: 500;
+        font-size: 35px;
+        font-weight: 600;
         padding: 15px;
         overflow: hidden;
         border-radius: 100px;
-        margin-top: 30px;
         text-align: center;
         letter-spacing: 5px;
         width: 40%;
+        /* box-shadow: -2px -2px 2px #344353; */
+    }
 
-        box-shadow: -2px -2px 2px #344353;
+    .main__profile__side span{
+        color: #ffffff;
+        padding: 0px 30px 0px 30px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .main__profile__frame{
+        width: 70vw;
+        height: 80vh;
+        background-color: antiquewhite;
+    }
+
+    .d1  div{
+        display: inline-block;
     }

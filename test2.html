@@ -9,23 +9,43 @@
     <title>Document</title>
     
     <style>
-        body{
-            overflow-x: hidden;
+        .d0 > div{
+            display: inline-block;
+            background-color: aqua;   
+        }
+        .d1{
+            /* display: inline-block; */
+            width: 100px;
+            height: 100px;
         }
 
-        div{
-            width: 100vw;
-            height: 100vh;
-            background-color: brown;
-            margin-bottom: 50px;
+        .d2{
+            width: 100px;
+            height: 100px;
+            /* background-color: beige; */
+
+            /* display: flex; */
+        }
+
+        .d3{
+            width: 10px;
+            height: 20px;
+            /* background-color: antiquewhite; */
         }
     </style>
 </head>
 
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="d0">
+
+        <div class="d2"></div>
+        <div class="d1"></div>
+        <div class="d1">
+            <div class="d3">
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
