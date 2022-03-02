@@ -26,14 +26,13 @@ slogan, name 옆쪽이랑 가장자리는 60~정도 나와야 적당함
 *스크롤 디자인
 
 -당장 할일-
+프로그래스바 예쁘게
 디자인 이쁘게
-main__profile__side 배치 예쁘게
-main__profile__name, .main__profile__comment 디자인 예쁘게
-main__profile__frame display 안먹음
+profile
+(myskills)
 
 -할일-
-profile
-사이드바 만들기
+스크롤바 꾸미기
 
 -내일 할일-
 
