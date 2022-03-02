@@ -9,52 +9,42 @@
     <title>Document</title>
 
     <style>
-        body {
-            justify-content: center;
-            align-items: center;
-            background: #000;
-            display: flex;
-            height: 100vh;
-            padding: 0;
-            margin: 0;
+        div {
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            background-color: bisque;
         }
 
-        .progress {
-            background: rgba(255, 255, 255, 0.1);
-            justify-content: flex-start;
-            border-radius: 100px;
-            align-items: center;
-            position: relative;
-            padding: 0 5px;
-            display: flex;
-            height: 40px;
-            width: 500px;
+        .d1:nth-child(1) {
+            background-color: aquamarine;
         }
 
-        .progress-value {
-            animation: load 3s normal forwards;
-            box-shadow: 0 10px 40px -10px #fff;
-            border-radius: 100px;
-            background: #fff;
-            height: 30px;
-            width: 0;
+        .d1:nth-child(2) {
+            background-color: blueviolet;
         }
-
-        @keyframes load {
-            0% {
-                width: 0;
-            }
-
-            100% {
-                width: 68%;
-            }
+        
+        .d1:nth-child(3){
+            background-color: burlywood;
         }
     </style>
 </head>
 
 <body>
-    <div class="progress">
-        <div class="progress-value"></div>
+    <div class="d1">
+        <div></div>
+    </div>
+    <div class="d1">
+        <div></div>
+    </div>
+    <div class="d1">
+        <div></div>
+    </div>
+    <div class="d1">
+        <div></div>
+    </div>
+    <div class="d1">
+        <div></div>
     </div>
 </body>
 

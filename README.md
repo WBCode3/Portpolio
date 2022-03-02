@@ -24,17 +24,19 @@ slogan, name 옆쪽이랑 가장자리는 60~정도 나와야 적당함
 *menu__bar__frame display도 mini flex 처럼 바꾼다
 *블라인드 클릭시 블라인드 페이드 아웃, 메뉴바 자연스럽게 사라지기
 *스크롤 디자인
+*prifle에서 여러가지 있으면 서브페이지 형식 or 스크롤 형식
 
 -당장 할일-
+프로그래스바 공통된게 여러개인데 순서대로 nth(n)마냥 색갈 바꾸고 싶음
 프로그래스바 예쁘게
-디자인 이쁘게
-profile
-(myskills)
+profile 디자인 이쁘게
 
 -할일-
-스크롤바 꾸미기
+profile
+skills
 
 -내일 할일-
+스크롤바 꾸미기
 
 -기타-
 menu__bar__frame__mini
