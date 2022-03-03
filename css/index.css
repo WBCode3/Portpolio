@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     /* overflow: hidden; */
     background-color: #081826;
+    scroll-behavior: smooth;
   }
 
   body{
@@ -13,3 +14,5 @@ html, body {
   a{
     text-decoration: none;
   }
+
+  
