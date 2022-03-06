@@ -3,4 +3,49 @@
     height: 100vh;
     border-top: 2.5px solid #D7F3FF;
     border-bottom: 2.5px solid #D7F3FF;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.main__contact__frame{
+    width: 90%;
+    height: 80%;
+    /* background-color: brown; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__contact__frame__item{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid #D7F3FF;
+    margin: 30px;
+    color: #D7F3FF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__contact__frame__item > span{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.main__contact__frame__item > a{
+    text-align: center;
+}
+
+
+.main__contact__frame__item  img{
+    width: 80%;
+    margin: auto;
 }
