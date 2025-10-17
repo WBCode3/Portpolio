@@ -96,6 +96,15 @@ cleanbot-ext/
     └── korcen.ts-stable/       # 한국어 욕설 필터 라이브러리
 ```
 
+<img width="1000" src="시스템 아키텍쳐.png">
+시스템 아키텍쳐
+
+<img width="1000" src="데이터 플로우.png">
+데이터 플로우
+
+<img width="1000" src="입력순화.png">
+입력순화 아키텍처
+
 
 ## 🎯 핵심 유스케이스
 
